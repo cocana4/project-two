@@ -48,7 +48,7 @@ nav ul li a {
     text-decoration: none;
     color: black;
     font-weight: bold;
-    padding: 58px 14px;
+    padding: 30px 14px;
 }
 
 nav li a:hover{ 
@@ -214,6 +214,11 @@ b > h6 {
     margin: 0;
 }
 
+header > h1 { 
+    padding: 20px;
+    font-size: 50px;
+}
+
   article > p { 
 font-size: 20px;
 text-align: left;
@@ -266,11 +271,12 @@ font-weight: normal;
         left: 50%;
         color: white;
         transform: translate(-50%, -50%);
-        font-size: 23px;
+        font-size: 20px;
         font-family: Arial, 'Segoe UI';
         font-weight: bold;
         text-shadow: 1px 1px 2px black;
       }
+
 
       .container { 
         position: relative;
@@ -278,6 +284,7 @@ font-weight: normal;
         color: white;
     }
     }
+    
 
     * {
         box-sizing: border-box;
@@ -296,16 +303,31 @@ font-weight: normal;
         }
       }
 
+      div.container > div.centered { 
+            position: absolute;
+            top: 35%;
+            left: 50%;
+            color: white;
+            transform: translate(-50%, -50%);
+            font-size: 21px;
+            font-family: Arial, 'Segoe UI';
+            font-weight: bold;
+            text-shadow: 1px 1px 2px black;
+            font-style: italic;
+      }
+
       div.centered {
         position: absolute;
-        top: 30%;
+        top: 35%;
         left: 50%;
         color: white;
         transform: translate(-50%, -50%);
-        font-size: 22px;
+        font-size: 30px;
         font-family: Arial, 'Segoe UI';
         font-weight: bold;
         text-shadow: 1px 1px 2px black;
+        line-height: 35px;
+        font-style: italic;
       }
     
       div > header >  p { 
